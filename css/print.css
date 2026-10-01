@@ -1,0 +1,29 @@
+/* Tariq Mohammed Areesh: 2237498 | Majd Ahmed Al-farasani: 2237426 */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #print-area, #print-area * {
+        visibility: visible;
+    }
+
+    #print-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    #projects-table-print-button {
+        display: none;
+    }
+
+    .btn, .btn-delete, .action-buttons {
+        display: none;
+    }
+
+    .project-details-row-title {
+        column-span: 3;
+    }
+}
